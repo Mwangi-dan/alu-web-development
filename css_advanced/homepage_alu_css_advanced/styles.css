@@ -263,9 +263,10 @@ body {
   font-size: 18px;
 }
 .main-part {
+  background-image: url('./images/background@2x.png');
+  background-size: cover;
+  background-position: center;
   position: absolute;
-  top: 0;
-  left: 0;
   width: 1440px;
   height: 1093px;
   overflow: hidden;
