@@ -5,12 +5,14 @@ body {
   /* zoom: 103%; */
   overflow-x: hidden;
   overflow-y: auto;
+  width: 100%;
+  height: 100%;
 }
 
 .wrapper {
   position: relative;
   background-color: #fff;
-  width: 1440px;
+  width: 2160px;
   height: 3718px;;
   overflow: hidden;
   text-align: left;
@@ -163,15 +165,8 @@ body {
   font-size: 14px;
 }
 
-.avatar-icon:hover {
-  transform: scale(1.1);
-}
-
 .button-background:hover {
   background-color: #ae68f5;
-}
-.pros:hover {
-  background-size: 160%;
 }
 
 .learn-from-the-container {
@@ -219,6 +214,15 @@ body {
   max-height: 100%;
   object-fit: cover;
 }
+
+
+.pro-1:hover,
+.pro-2:hover,
+.pro-3:hover,
+.pro-4:hover {
+  scale: 1.2;
+}
+
 .pro-4 {
   left: 85.13%;
 }
@@ -230,7 +234,9 @@ body {
   top: 0;
   bottom: 0;
   overflow: hidden;
+  transition: scale .5s ease;
 }
+
 .pro-3 {
   position: absolute;
   right: 28.64%;
@@ -253,6 +259,7 @@ body {
   bottom: 0;
   left: 0;
   overflow: hidden;
+  transition: scale .5s ease;
 }
 .pros {
   height: 21.68%;

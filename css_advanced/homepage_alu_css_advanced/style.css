@@ -1,0 +1,391 @@
+
+html, body {
+    width:100%;
+    margin: 0;
+    line-height: normal;
+    overflow-x: auto;
+}
+
+.wrapper {
+    position: relative;
+    background-color: #fff;
+    width: 1440px;
+    height: 3718px;;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+    font-family: "Source Sans Pro";
+}
+
+.header {
+    position: absolute;
+    width: 1103.41px;
+    height: 29.46px;
+    left: 171.59px;
+    top: 35.02px;
+
+}
+
+.logo-icon {
+    position: absolute;
+    width: 167.02px;
+    height: 29.46px;
+    left: 0;
+}
+
+.menu,
+.login,
+.header {
+    position: absolute;
+}
+
+
+
+.courses,
+.pricing,
+.login {
+    top: calc(50% - 7.5px);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.background-icon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.pricing {
+    position: absolute;
+    left: 43.59%;
+}
+
+.login {
+    left: 85.47%;
+}
+
+
+.menu {
+    top: 1.98px;
+    left: 869.41px;
+    width: 234px;
+    height: 15px;
+    overflow: hidden;
+}
+.header {
+    top: 35.02px;
+    left: 171.59px;
+    width: 1103.41px;
+    height: 29.46px;
+    font-size: 12px;
+}
+.courses {
+    position: absolute;
+    left: 0;
+}
+
+.courses:hover,
+.login:hover,
+.pricing:hover {
+    transform:scale(1.05);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+.get-schooled {
+    position: absolute;
+    height: 151px;
+    left: 26.25%;
+    right: 26.25%;
+    top: calc(50% - 151px/2 - 251px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 151px;
+    margin: 0;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.grin,
+.laugh,
+.smiles {
+    position: absolute;
+    top: calc(50% - 185.5px);
+    left: 41.18%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.grin,
+.laugh {
+    left: 48.89%;
+}
+.laugh {
+    left: 55.35%;
+}
+
+.button .button-background {
+    position: absolute;
+    height:100%;
+    width: 100%;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 22px;
+    background-color: #C271FF;
+}
+
+.register {
+    position: absolute;
+    top: calc(50% - 9px);
+    left: 12.35%;
+    font-weight: 600;
+}
+
+.button {
+    position: absolute;
+    height: 4.03%;
+    width: 11.25%;
+    top: 38.33%;
+    right: 44.38%;
+    bottom: 57.64%;
+    left: 44.38%;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.button-background:hover {
+    background-color: #ae68f5;
+}
+
+
+.learn-from-the-container {
+    position: absolute;
+    top: calc(50% + 84.5px);
+    left: 41.94%;
+    font-size: 32px;
+    color: #c271ff;
+    font-weight: bold;
+}
+.most {
+    font-weight: 300;
+    color: #fff;
+}
+
+.pro-caption,
+.pro-name {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    left: 0;
+    color: white;
+}
+
+.pro-name {
+    top: calc(50% + 41.5px);
+    line-height: 27px;
+    font-weight: 900;
+}
+
+.pro-caption {
+    top: calc(50% + 70.5px);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.avatar-icon {
+    height: 63.29%;
+    width: 100%;
+    top: 0;
+    bottom: 36.71%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.avatar-icon,
+.pro-4 {
+    position: absolute;
+    right: 0
+}
+
+.avatar-icon:before {
+    position: absolute;
+    transition: transform 800ms;
+
+}
+.avatar-icon:hover {
+    transform: scale(1.2);
+}
+
+.pro-4 {
+    left: 85.17%;
+}
+.pro-2,
+.pro-3,
+.pro-4 {
+    height: 100%;
+    width: 14.87%;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.pro-3 {
+  position: absolute;
+  right: 28.64%;
+  left: 56.49%;
+}
+.pro-2 {
+  right: 56.49%;
+  left: 28.64%;
+}
+.pro-1,
+.pro-2,
+.pros {
+  position: absolute;
+}
+.pro-1 {
+  height: 100%;
+  width: 14.87%;
+  top: 0;
+  right: 85.13%;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+.pros {
+  height: 21.68%;
+  width: 70.07%;
+  top: 69.35%;
+  right: 14.86%;
+  bottom: 8.97%;
+  left: 15.07%;
+  font-size: 18px;
+}
+.pro-3 {
+    position: absolute;
+    right: 28.64%;
+    left: 56.49%;
+  }
+.pro-2 {
+    right: 56.49%;
+    left: 28.64%;
+}
+.pro-1,
+.pro-2,
+.pros {
+    position: absolute;
+}
+.pro-1 {
+    height: 100%;
+    width: 14.87%;
+    top: 0;
+    right: 85.13%;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+.pros {
+    height: 21.68%;
+    width: 70.07%;
+    top: 69.35%;
+    right: 14.86%;
+    bottom: 8.97%;
+    left: 15.07%;
+    font-size: 18px;
+}
+
+
+.main-part {
+    background-image: url('images/background@2x.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 1440px;
+    height: 1093px;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.background-icon1 {
+    position: absolute;
+    width: 1440px;
+    height: 392px;
+    left: -1px;
+    top: 1093px;
+}
+
+.avatar-icon4 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 259px;
+    top: 1201px;
+}
+.testimonial .text{
+    position: absolute;
+    width: 730px;
+    height: 158px;
+    left: 472px;
+    top: 1203px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+}
+.person-name,
+.those-tutorials-ar,
+.weather-presenter {
+    position: absolute;
+    height: 34px;
+    left: 0%;
+    right: 82.33%;
+}
+
+.text .person-name {
+    top: calc(50% - 34px/2 + 28px);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.weather-presenter {
+    top: calc(50% - 34px/2 + 62px);
+}
+.those-tutorials-ar {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 56.96%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+
+    line-height: 34px;
+}
