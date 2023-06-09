@@ -1,7 +1,8 @@
+/* entire body */
 html,
 body {
   margin: 0;
-  zoom: 103%;
+  /* zoom: 103%; */
   overflow-x: hidden;
   overflow-y: auto;
 }
